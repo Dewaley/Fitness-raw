@@ -1,0 +1,91 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 10px;
+}
+body {
+  background-image: url('1245420.jpg');
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+li {
+  list-style: none;
+}
+a {
+  color: black !important;
+}
+a:hover {
+  text-decoration: none !important;
+}
+.navbar {
+  justify-content: center !important;
+}
+.links {
+  display: flex;
+  justify-content: space-between !important;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 7rem;
+  overflow: hidden;
+  width: 100vw;
+  margin: 0;
+}
+.logo {
+  height: 7rem;
+}
+.hamburger {
+  cursor: pointer;
+  z-index: 5;
+}
+.clicked {
+  cursor: pointer;
+  z-index: 5;
+}
+.clicked .bar2 {
+  display: none;
+}
+.clicked .bar1 {
+  transform: rotate(45deg);
+}
+.clicked .bar3 {
+ transform: rotate(-45deg);
+}
+.bar {
+  width: 3rem;
+  height: 0.2rem;
+  background-color: black;
+}
+.bar1 {
+  transition: all ease-in 600ms;
+}
+.bar3 {
+  transition: all ease-in 600ms;
+}
+.bar2 {
+  margin: 1rem 0;
+  transition: all ease-in 600ms;
+}
+.aside-right {
+  background-color: white;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 25rem;
+  top: 0;
+  right: 0;
+  padding: 7rem 3rem;
+  z-index: 4;
+}
+.aside-right a {
+  font-size: 2rem;
+}
+.aside-right li {
+  margin-bottom: 1rem;
+}
