@@ -136,17 +136,17 @@ a:hover {
   padding-top: 20px;
   padding-bottom: 20px;
   color: #fff;
-  text-align: left !important;
+  text-align: right !important;
 }
 .third {
   position: absolute;
   right: 4rem !important;
   left: initial !important;
-  bottom: 30px !important;
+  bottom: 20px !important;
   padding-top: 20px;
   padding-bottom: 20px;
   color: #fff;
-  text-align: left !important;
+  text-align: right !important;
 }
 .view {
   padding: 1.5rem;
@@ -162,3 +162,45 @@ a:hover {
   color: black;
   transition: all ease-in 400ms;
 }
+@media (min-width: 576px) and (max-width: 768px) { 
+  .carousel-caption {
+  width: 60vw;
+}
+.carousel-caption h5 {
+  font-size: 3rem;
+}
+.carousel-caption p {
+  font-size: 1.5rem;
+  margin-top: 1rem;
+}
+.view {
+  padding: 0.25rem;
+  background-color: transparent;
+  font-size: 1.3rem;
+  color: white;
+  border: 1px solid white;
+  outline: none;
+  transition: all ease-in 400ms;
+}
+ }
+@media (max-width: 576px) { 
+  .carousel-caption {
+  width: 60vw;
+}
+.carousel-caption h5 {
+  font-size: 1.5rem;
+}
+.carousel-caption p {
+  font-size: 1rem;
+  margin-top: 0rem;
+}
+.view {
+  padding: 0.25rem;
+  background-color: transparent;
+  font-size: 1rem;
+  color: white;
+  border: 1px solid white;
+  outline: none;
+  transition: all ease-in 400ms;
+}
+ }
