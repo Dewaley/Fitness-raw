@@ -24,6 +24,9 @@ a:hover {
 }
 .navbar {
   justify-content: center !important;
+  background-color: black;
+  position: sticky;
+  top: 0;
 }
 .links {
   display: flex;
@@ -35,6 +38,7 @@ a:hover {
   overflow: hidden;
   width: 100vw;
   margin: 0;
+  
 }
 .logo {
   height: 7rem;
@@ -103,4 +107,38 @@ a:hover {
 .slide {
   right: 0;
   transition: all ease-out 400ms;
+}
+.carousel-caption {
+  width: 40rem;
+}
+.carousel-caption h5 {
+  font-size: 4rem;
+}
+.carousel-caption p {
+  font-size: 2.5rem;
+  margin-top: 2rem;
+}
+.first{
+    position: absolute;
+    left: 4rem !important;
+    right: initial !important;
+    bottom: 20px !important;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: left !important;
+}
+.view {
+  padding: 1.5rem;
+  background-color: transparent;
+  font-size: 2rem;
+  color: white;
+  border: 1px solid white;
+  outline: none;
+  transition: all ease-in 400ms;
+}
+.view:hover {
+  background-color: white;
+  color: black;
+  transition: all ease-in 400ms;
 }
