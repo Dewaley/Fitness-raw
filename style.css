@@ -2,7 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'PT Sans', sans-serif;
   color: white;
 }
 html {
@@ -20,32 +20,26 @@ li {
   list-style: none;
 }
 a {
-  color: black !important;
+  color: black;
 }
 a:hover {
-  text-decoration: none !important;
+  text-decoration: none;
 }
-.navbar {
-  justify-content: center !important;
-  background-color: black;
-  position: sticky;
-  top: 0;
-  width: 100vw;
-}
-.links {
+header {
   display: flex;
-  justify-content: space-between !important;
-  flex-direction: row;
-  justify-content: center;
+  justify-content: space-between;
+  padding: 1.8rem;
   align-items: center;
-  height: 7rem;
-  overflow: hidden;
-  width: 100vw;
-  margin: 0;
+  background-color: #20232a;
+  font-size: 2rem;
 }
-.logo {
-  height: 7rem;
+.fa-phone {
+  padding-right: 1rem;
 }
+header a {
+  padding: 0 .75rem;
+}
+
 .hamburger {
   cursor: pointer;
   z-index: 5;
@@ -110,217 +104,4 @@ a:hover {
 .slide-in {
   right: 0;
   transition: all ease-out 400ms;
-}
-.carousel-caption {
-  width: 40rem;
-}
-.carousel-caption h5 {
-  font-size: 4rem;
-}
-.carousel-caption p {
-  font-size: 2.5rem;
-  margin-top: 2rem;
-}
-.first {
-  position: absolute;
-  left: 4rem !important;
-  right: initial !important;
-  bottom: 20px !important;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  color: #fff;
-  text-align: left !important;
-}
-.second {
-  position: absolute;
-  right: 4rem !important;
-  left: initial !important;
-  bottom: 20px !important;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  color: #fff;
-  text-align: right !important;
-}
-.third {
-  position: absolute;
-  right: 4rem !important;
-  left: initial !important;
-  bottom: 20px !important;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  color: #fff;
-  text-align: right !important;
-}
-.view {
-  padding: 1.5rem;
-  background-color: transparent;
-  font-size: 2rem;
-  color: white;
-  border: 1px solid white;
-  outline: none;
-  transition: all ease-in 400ms;
-}
-.view:hover {
-  background-color: white;
-  color: black;
-  transition: all ease-in 400ms;
-}
-@media (min-width: 576px) and (max-width: 768px) {
-  .carousel-caption {
-    width: 60vw;
-  }
-  .carousel-caption h5 {
-    font-size: 3rem;
-  }
-  .carousel-caption p {
-    font-size: 1.5rem;
-    margin-top: 1rem;
-  }
-  .view {
-    padding: 0.25rem;
-    background-color: transparent;
-    font-size: 1.3rem;
-    color: white;
-    border: 1px solid white;
-    outline: none;
-    transition: all ease-in 400ms;
-  }
-}
-@media (max-width: 576px) {
-  .carousel-caption {
-    width: 60vw;
-  }
-  .carousel-caption h5 {
-    font-size: 1.5rem;
-  }
-  .carousel-caption p {
-    font-size: 1rem;
-    margin-top: 0rem;
-  }
-  .view {
-    padding: 0.25rem;
-    background-color: transparent;
-    font-size: 1rem;
-    color: white;
-    border: 1px solid white;
-    outline: none;
-    transition: all ease-in 400ms;
-  }
-  .her {
-    height: 20rem !important;
-  }
-  .her a {
-    font-size: 1.7rem !important;
-  }
-  .him {
-    height: 20rem !important;
-  }
-  .him a {
-    font-size: 1.7rem !important;
-  }
-  .coloredBtn {
-    font-size: 1.5rem;
-  }
-  .capt {
-    font-size: 1.4rem;
-  }
-  .martialarts {
-    font-size: 0.75rem;
-  }
-  .martialarts p {
-    font-size: 1.2rem;
-  }
-  .martialarts h4 {
-    font-size: 1.7rem;
-  }
-}
-.her {
-  background-image: url('home-1-1-640x533.jpg');
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 40rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  text-transform: capitalize;
-  flex-direction: column;
-  font-size: 2rem;
-}
-.her a {
-  color: white !important;
-  font-size: 3rem;
-  text-transform: uppercase;
-  margin-bottom: 1rem;
-}
-.him {
-  background-image: url('home-1-2-640x533.jpg');
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 40rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  text-transform: capitalize;
-  flex-direction: column;
-  font-size: 2rem;
-}
-.him a {
-  color: white !important;
-  font-size: 3rem;
-  text-transform: uppercase;
-  margin-bottom: 1rem;
-}
-.capt {
-  width: 70%;
-}
-.coloredBtn {
-  display: block;
-  border: 1px solid white;
-  transition: all ease-in 400ms;
-  padding: 0.5rem;
-}
-.coloredBtn:hover {
-  background-color: white;
-  color: black;
-}
-.consultation {
-  height: 22rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  text-transform: capitalize;
-  flex-direction: column;
-  font-size: 2rem;
-}
-.consultation a {
-  margin: 1rem;
-}
-.martialarts {
-  background-image: url('boxing-wallpaper-12.jpg');
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  display: flex;
-  height: 50rem;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  text-transform: capitalize;
-  flex-direction: column;
-  font-size: 2rem;
-  margin: 7rem 0;
-}
-.martialarts h4 {
-  margin: 1rem;
-  font-size: 2.5rem;
-  font-weight: bold;
-}
-.martialarts p {
-  width: 60%;
-  font-size: 2rem;
 }
