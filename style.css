@@ -94,6 +94,13 @@ header a {
   right: 0;
   transition: all ease-out 400ms;
 }
+.welcome {
+  background-image: url('oie_2h4VfJ3YU6jq.jpg');
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
 @media (max-width: 768px) {
   .right {
     display: none;
