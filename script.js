@@ -3,7 +3,7 @@ let hamburger = document.querySelector('.hamburger')
 
 hamburger.addEventListener('click', (e) => {
   hamburger.classList.toggle('clicked')
-  sideBar.classList.toggle('slide')
+  sideBar.classList.toggle('slide-in')
 })
 window.addEventListener('click', (e) => {
   let getHamburger = document.querySelector('.hamburger')
@@ -11,6 +11,6 @@ window.addEventListener('click', (e) => {
   let checkClicked = e.target.classList.contains('hamburger')
   if (checkClassList && !checkClicked) {
     hamburger.classList.toggle('clicked')
-    sideBar.classList.toggle('slide')
+    sideBar.classList.toggle('slide-in')
   }
 })

@@ -14,6 +14,7 @@ body {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  overflow-x: hidden;
 }
 li {
   list-style: none;
@@ -29,6 +30,7 @@ a:hover {
   background-color: black;
   position: sticky;
   top: 0;
+  width: 100vw;
 }
 .links {
   display: flex;
@@ -105,7 +107,7 @@ a:hover {
 .aside-right li {
   margin-bottom: 1rem;
 }
-.slide {
+.slide-in {
   right: 0;
   transition: all ease-out 400ms;
 }
@@ -207,8 +209,20 @@ a:hover {
   .her {
     height: 20rem !important;
   }
+  .her a {
+    font-size: 1.7rem !important;
+  }
   .him {
     height: 20rem !important;
+  }
+  .him a {
+    font-size: 1.7rem !important;
+  }
+  .coloredBtn {
+    font-size: 1.5rem;
+  }
+  .capt {
+    font-size: 1.4rem;
   }
   .martialarts {
     font-size: 0.75rem;
