@@ -174,7 +174,6 @@ header a {
   display: flex;
   flex-direction: row;
   align-items: center;
-  height: 40rem;
   width: 50vw;
 }
 .one .first {
@@ -294,9 +293,23 @@ header a {
   .welcome p {
     display: none;
   }
+  .programs {
+  flex-direction: column;
+}
+.one, .two {
+  width: 100%;
+}
 }
 @media (max-width: 576px) {
   .topContact {
     display: none;
+  }
+  .one, .two {
+    flex-direction: column;
+    width: 100vw;
+  }
+  .one .first{
+    height: 100rem;
+    width: 100%;
   }
 }
