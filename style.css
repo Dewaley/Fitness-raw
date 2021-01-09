@@ -166,17 +166,17 @@ header a {
   display: flex;
   align-items: center;
   height: 40rem;
-  background-color: #20232a;
+  transition: all ease-in 400ms;
   width: 100vw;
 }
-.one, .two{
+.one,
+.two {
   display: flex;
   flex-direction: row;
   align-items: center;
   height: 40rem;
   width: 50vw;
 }
-
 .one .first {
   background-image: url('home-programs-img4.jpg');
   background-position: center;
@@ -188,7 +188,8 @@ header a {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  padding: 2rem
+  padding: 2rem;
+  transition: all ease-in 400ms;
 }
 .one .second {
   background-image: url('home-programs-img2.jpg');
@@ -201,7 +202,8 @@ header a {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  padding: 2rem
+  padding: 2rem;
+  transition: all ease-in 400ms;
 }
 .two .first {
   background-image: url('home-programs-img3.jpg');
@@ -214,7 +216,8 @@ header a {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  padding: 2rem
+  padding: 2rem;
+  transition: all ease-in 400ms;
 }
 .two .second {
   background-image: url('home-programs-img1.jpg');
@@ -227,7 +230,13 @@ header a {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  padding: 2rem
+  padding: 2rem;
+  transition: all ease-in 400ms;
+}
+.first:hover,
+.second:hover {
+  border-top: 6px solid #f8403c;
+  transition: all ease-in 200ms;
 }
 @media (max-width: 768px) {
   header {
