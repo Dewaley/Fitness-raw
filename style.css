@@ -165,7 +165,7 @@ header a {
 .programs {
   display: flex;
   align-items: center;
-  height: 40rem;
+  height: 50rem;
   transition: all ease-in 400ms;
   width: 100%;
 }
@@ -262,6 +262,103 @@ header a {
   background-color: white;
   color: #20232a;
   transition: ease-in 400ms;
+}
+.coaches h4 {
+  background-color: #20232a;
+  height: 20rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 3rem;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+.coaches h4 hr {
+  min-width: 10rem;
+  max-width: 12rem;
+  background-color: #f8403c;
+  border: none;
+  height: 0.5rem;
+  margin-top: 1.5rem;
+}
+.coaches-info {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.template {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+.coach {
+  display: flex;
+  width: 50%;
+  background-color: black;
+  height: 40rem;
+}
+.coachimg {
+  max-width: 25vw;
+  min-width: 25vw;
+}
+.I {
+  background-image: url('home-11-img-4.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.II {
+  background-image: url('home-11-img-5.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.III {
+  background-image: url('home-coaches-img1.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.IV {
+  background-image: url('home-coaches-img3.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.V {
+  background-image: url('home-coaches-img2.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.VI {
+  background-image: url('home-coaches-img4.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.coach-info {
+  background-color: #2b2e35;
+  padding: 2rem;
+}
+.coach-info h2{
+  font-size: 1.7rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.coach-info p {
+  font-size: 1.5rem;
+}
+.coach-info h5 {
+  color: #f8403c;
+  font-weight: bold;
+  font-size: 1.2rem;
+  letter-spacing: 0.5px;
+  margin: 1rem 0;
 }
 @media (max-width: 768px) {
   header {
