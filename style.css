@@ -29,7 +29,7 @@ header {
   padding-right: 1rem;
   color: #f8403c;
 }
-.fab:hover {
+header .fab:hover {
   color: #f8403c;
   transition: ease-in 300ms;
 }
@@ -360,6 +360,27 @@ header a {
   letter-spacing: 0.5px;
   margin: 1rem 0;
 }
+.coachcontact {
+  margin: 1.5rem 0;
+  display: flex;
+}
+.coachcontact a {
+  font-size: 2rem;
+  width: 4rem;
+  height:4rem;
+  border: 1px solid #f8403c;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 1.2rem;
+  transition: ease-in 400ms;
+}
+.coachcontact a:hover {
+  background-color: #f8403c;
+  color: white;
+  transition: ease-in 400ms;
+}
 @media (max-width: 768px) {
   header {
     font-size: 1.5rem;
@@ -420,6 +441,11 @@ header a {
   flex-direction: column;
 }
 .one, .two {
+  width: 100%;
+}
+.template {
+  display: flex;
+  flex-direction: row;
   width: 100%;
 }
 }
