@@ -477,4 +477,10 @@ header a {
     height: 40rem;
     width: 100%;
   }
+  .coachcontact a {
+    font-size: 1.2rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-right: 0.8rem;
+  }
 }
