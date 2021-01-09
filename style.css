@@ -24,6 +24,7 @@ header {
   align-items: center;
   background-color: #20232a;
   font-size: 2rem;
+  width: 100%;
 }
 .fa-phone {
   padding-right: 1rem;
@@ -45,6 +46,7 @@ header a {
   text-transform: uppercase;
   align-items: center;
   padding: 1.8rem;
+  width: 100%;
 }
 .left {
   font-size: 2rem;
@@ -287,7 +289,7 @@ header a {
 .coaches-info {
   display: flex;
   flex-direction: column;
-  width: 100%;
+  width: 100vw;
 }
 .template {
   display: flex;
