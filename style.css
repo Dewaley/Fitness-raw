@@ -167,14 +167,14 @@ header a {
   align-items: center;
   height: 40rem;
   transition: all ease-in 400ms;
-  width: 100vw;
+  width: 100%;
 }
 .one,
 .two {
   display: flex;
   flex-direction: row;
   align-items: center;
-  width: 50vw;
+  width: 50%;
 }
 .one .first {
   background-image: url('home-programs-img4.jpg');
@@ -236,6 +236,32 @@ header a {
 .second:hover {
   border-top: 6px solid #f8403c;
   transition: all ease-in 200ms;
+}
+.programs h4 {
+  text-transform: uppercase;
+  font-size: 3rem;
+  font-weight: bolder;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.programs button {
+  text-transform: uppercase;
+  padding: 1rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+  letter-spacing: 2px;
+  color: white;
+  border: 1px solid white;
+  background-color: transparent;
+  cursor: pointer;
+  transition: ease-in 400ms;
+}
+.programs button:hover {
+  background-color: white;
+  color: #20232a;
+  transition: ease-in 400ms;
 }
 @media (max-width: 768px) {
   header {
