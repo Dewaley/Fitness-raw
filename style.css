@@ -301,8 +301,8 @@ header a {
   height: 40rem;
 }
 .coachimg {
-  max-width: 25vw;
-  min-width: 25vw;
+  max-width: 40%;
+  min-width: 40%;
 }
 .I {
   background-image: url('home-11-img-4.jpg');
@@ -344,7 +344,7 @@ header a {
   background-color: #2b2e35;
   padding: 2rem;
 }
-.coach-info h2{
+.coach-info h2 {
   font-size: 1.7rem;
   font-weight: bold;
   text-transform: uppercase;
@@ -352,6 +352,7 @@ header a {
 }
 .coach-info p {
   font-size: 1.5rem;
+  width: 80%;
 }
 .coach-info h5 {
   color: #f8403c;
@@ -367,7 +368,7 @@ header a {
 .coachcontact a {
   font-size: 2rem;
   width: 4rem;
-  height:4rem;
+  height: 4rem;
   border: 1px solid #f8403c;
   border-radius: 50%;
   display: flex;
@@ -380,6 +381,14 @@ header a {
   background-color: #f8403c;
   color: white;
   transition: ease-in 400ms;
+}
+@media (max-width: 905px) {
+  .template {
+    flex-direction: column;
+  }
+  .coach {
+    width: 100%;
+  }
 }
 @media (max-width: 768px) {
   header {
@@ -438,26 +447,31 @@ header a {
     display: none;
   }
   .programs {
-  flex-direction: column;
-}
-.one, .two {
-  width: 100%;
-}
-.template {
-  display: flex;
-  flex-direction: row;
-  width: 100%;
-}
+    flex-direction: column;
+    height: 100rem;
+  }
+  .one,
+  .two {
+    width: 100%;
+  }
 }
 @media (max-width: 576px) {
   .topContact {
     display: none;
   }
-  .one, .two {
+  .programs {
+    flex-direction: column;
+    height: 160rem;
+  }
+  .one,
+  .two {
     flex-direction: column;
     width: 100vw;
   }
-  .one .first, .one .second, .two .first, .two .second{
+  .one .first,
+  .one .second,
+  .two .first,
+  .two .second {
     height: 40rem;
     width: 100%;
   }
