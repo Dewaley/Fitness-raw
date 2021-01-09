@@ -162,9 +162,76 @@ header a {
   height: 0.5rem;
   margin-top: 1.5rem;
 }
+.programs {
+  display: flex;
+  align-items: center;
+  height: 40rem;
+  background-color: #20232a;
+  width: 100vw;
+}
+.one, .two{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 40rem;
+  width: 50vw;
+}
+
+.one .first {
+  background-image: url('home-programs-img4.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 50%;
+  height: 50rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem
+}
+.one .second {
+  background-image: url('home-programs-img2.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 50%;
+  height: 50rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem
+}
+.two .first {
+  background-image: url('home-programs-img3.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 50%;
+  height: 50rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem
+}
+.two .second {
+  background-image: url('home-programs-img1.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 50%;
+  height: 50rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem
+}
 @media (max-width: 768px) {
   header {
-  font-size: 1.5rem;
+    font-size: 1.5rem;
   }
   .right {
     display: none;
