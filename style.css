@@ -591,7 +591,7 @@ footer h4 {
   .clicked {
     cursor: pointer;
     z-index: 5;
-    transform: translateX(-19rem);
+    transform: translateX(-17rem);
     transition: all ease-in 400ms;
   }
   .clicked .bar2 {
@@ -678,11 +678,12 @@ footer h4 {
   .special span {
     font-size: 1.2rem;
   }
-  .contactus h2, .contactus h5 {
+  .contactus h2,
+  .contactus h5 {
     font-size: 1.8rem;
   }
   .contactus span {
-    font-size: 1.2rem
+    font-size: 1.2rem;
   }
   .input input {
     width: 20rem;
