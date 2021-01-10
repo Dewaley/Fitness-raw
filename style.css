@@ -657,4 +657,13 @@ header a {
   .special span {
     font-size: 1.2rem;
   }
+  .contactus h2, .contactus h5 {
+    font-size: 1.8rem;
+  }
+  .contactus span {
+    font-size: 1.2rem
+  }
+  .input input {
+    width: 20rem;
+  }
 }
