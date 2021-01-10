@@ -486,7 +486,7 @@ header a {
   font-weight: bold;
   letter-spacing: 2px;
   color: white;
-  border: 1px solid white;
+  border: 1px solid #f8403c;
   background-color: transparent;
   cursor: pointer;
   transition: ease-in 400ms;
@@ -497,6 +497,54 @@ header a {
   border: 1px solid #f8403c;
   color: white;
   transition: ease-in 400ms;
+}
+.contactus {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #2b2e35;
+  height: 40rem;
+}
+.contactus h2 {
+  text-transform: uppercase;
+  color: #f8403c;
+  font-weight: bold;
+  font-size: 3rem;
+}
+.contactus span {
+  font-size: 2rem;
+  margin-top: 1.2rem;
+}
+.input {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 3.5rem !important;
+}
+.input input {
+  border: none;
+  font-size: 1.5rem;
+  padding: 1rem 1.5rem;
+  width: 30rem;
+  color: #20232a;
+}
+.input input::placeholder {
+  font-style: italic;
+}
+.contactus button {
+  color: white;
+  background-color: #f8403c;
+  flex: 1;
+  font-size: 1.5rem;
+  padding: 1rem;
+  border: none;
+}
+.contactus h5 {
+  text-transform: uppercase;
+  color: #f8403c;
+  font-weight: bold;
+  font-size: 3rem;
+  margin: 2rem;
 }
 @media (max-width: 905px) {
   .template {
