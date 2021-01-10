@@ -453,6 +453,51 @@ header a {
 .yoga-details p {
   font-size: 1.5rem;
 }
+.special {
+  display: flex;
+  height: 40rem;
+  background-color: #20232a;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.special h2 {
+  font-size: 6rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  color: #f8403c;
+}
+.special span {
+  font-size: 2rem;
+  margin-top: 1rem;
+  max-width: 80%;
+}
+.special h4 {
+  font-size: 4rem;
+  text-transform: uppercase;
+  font-weight: 200;
+}
+.special button {
+  text-transform: uppercase;
+  padding: 1rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+  letter-spacing: 2px;
+  color: white;
+  border: 1px solid white;
+  background-color: transparent;
+  cursor: pointer;
+  transition: ease-in 400ms;
+  margin-top: 3rem;
+}
+.special button:hover {
+  background-color: #f8403c;
+  border: 1px solid #f8403c;
+  color: white;
+  transition: ease-in 400ms;
+}
 @media (max-width: 905px) {
   .template {
     flex-direction: column;
@@ -462,9 +507,6 @@ header a {
   }
   .yoga {
     flex-direction: column;
-  }
-  .yogaimg {
-    display: none;
   }
 }
 @media (max-width: 768px) {
@@ -557,5 +599,14 @@ header a {
     width: 2.5rem;
     height: 2.5rem;
     margin-right: 0.8rem;
+  }
+  .special h2 {
+    font-size: 4rem;
+  }
+  .special h4 {
+    font-size: 2rem;
+  }
+  .special span {
+    font-size: 1.2rem;
   }
 }
