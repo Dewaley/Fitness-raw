@@ -10,10 +10,6 @@ html {
 }
 body {
   overflow-x: hidden;
-  background-image: url('home-coaches-img3.jpg');
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 li {
   list-style: none;
@@ -546,6 +542,28 @@ header a {
   font-size: 3rem;
   margin: 2rem;
 }
+footer {
+  background-color: #20232a;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  font-size: 1.5rem;
+}
+footer h4 {
+  font-size: 2rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  padding-bottom: 1rem;
+}
+.about {
+  margin: 1.2rem;
+}
+.about a:hover {
+  color: #f8403c;
+}
+.active {
+  border-bottom: 2px solid #f8403c;
+}
 @media (max-width: 905px) {
   .template {
     flex-direction: column;
@@ -621,6 +639,9 @@ header a {
   .two {
     width: 100%;
   }
+  footer {
+    grid-template-columns: 1fr 1fr;
+  }
 }
 @media (max-width: 576px) {
   .topContact {
@@ -665,5 +686,8 @@ header a {
   }
   .input input {
     width: 20rem;
+  }
+  footer {
+    grid-template-columns: 1fr;
   }
 }
