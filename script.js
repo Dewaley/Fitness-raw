@@ -14,3 +14,4 @@ window.addEventListener('click', (e) => {
     sideBar.classList.toggle('slide-in')
   }
 })
+
